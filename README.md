@@ -11,11 +11,23 @@ npm install react-native-pin-lock-view
 ## Usage
 
 ```js
-import { multiply } from 'react-native-pin-lock-view';
+import { PinLockView } from 'react-native-pin-lock-view';
 
 // ...
 
-const result = await multiply(3, 7);
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <PinLockView />
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+});
 ```
 
 ## Contributing
