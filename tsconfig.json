@@ -24,7 +24,7 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "esnext",
-    "verbatimModuleSyntax": true
-    // "ignoreDeprecations": "5.0"
+    // "verbatimModuleSyntax": true
+    "ignoreDeprecations": "5.0"
   }
 }
